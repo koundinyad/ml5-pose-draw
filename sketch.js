@@ -31,7 +31,7 @@ function drawSketch() {
       let x = skeleton[j][0];
       let y = skeleton[j][1];
 
-      stroke(random(255), random(30));
+      stroke(random(255),random(255),random(255),15);
       strokeWeight(3);
 
       line(x.position.x, x.position.y, y.position.x, y.position.y);
